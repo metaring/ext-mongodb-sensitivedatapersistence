@@ -1,0 +1,10 @@
+{
+  "sensitivedatapersistence": {
+    "queryResolver": "com.metaring.framework.ext.sensitivedatapersistence.mongodb.MongoDBSensitiveDataQueryResolver",
+    "crypto": {
+      "maxKeyLength": 16,
+      "algorythm":"AES/CBC/PKCS5Padding",
+      "keyType":"AES"
+    }
+  }
+}
