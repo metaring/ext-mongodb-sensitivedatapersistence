@@ -17,7 +17,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.metaring</groupId>
-    <artifactId>framework-ext-sensitivedatapersistence-mongodb</artifactId>
+    <artifactId>framework-ext-mongodb-sensitivedatapersistence</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>MetaRing MongoDB Sensitive Data Persistence Extension</name>
@@ -40,8 +40,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/metaring/framework-ext-sensitivedatapersistence-mongodb.git</url>
-        <developerConnection>scm:git:git@github.com:metaring/framework-ext-sensitivedatapersistence-mongodb.git</developerConnection>
+        <url>https://github.com/metaring/framework-ext-mongodb-sensitivedatapersistence.git</url>
+        <developerConnection>scm:git:git@github.com:metaring/framework-ext-mongodb-sensitivedatapersistence.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 

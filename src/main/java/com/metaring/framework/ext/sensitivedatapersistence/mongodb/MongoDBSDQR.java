@@ -29,7 +29,7 @@ import static com.ea.async.Async.await;
 import static com.metaring.framework.sensitiveDataPersistence.SensitiveDataPersistenceFunctionalitiesManager.tarnishWithParams;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 
-public final class MongoDBSensitiveDataQueryResolver implements SensitiveDataQueryResolver {
+public final class MongoDBSDQR implements SensitiveDataQueryResolver {
 
     @Override
     public final CompletableFuture<String> resolve(String query, TextSeries params, Function<String, String> trasformFunction) {
